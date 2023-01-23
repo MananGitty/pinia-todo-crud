@@ -15,9 +15,9 @@
       <button  @click="filter='all'"> All Tasks</button>
     </nav>
 
-    <div class="loading" v-if="taskStore.loading">
+    <!-- <div class="loading" v-if="taskStore.loading">
       <h1> Loading </h1>
-    </div>
+    </div> -->
 
     <div class="task-list" v-if="filter === 'all'">
       <p> Total Tasks : {{ taskStore.totalCount }} </p>

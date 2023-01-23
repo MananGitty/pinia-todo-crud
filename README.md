@@ -1,6 +1,13 @@
 # pinia-todo
 
-This template should help get you started developing with Vue 3 in Vite.
+AS I am not using any DB for data persistency. Therefore i am using json-server. Install json-server first by this command 
+npm install json-server 
+
+Then use this command 
+json-server -w ./data/db.json 
+
+
+by this json-server will start watching our data and it will be able to store the data changes permanenetly. 
 
 ## Recommended IDE Setup
 
